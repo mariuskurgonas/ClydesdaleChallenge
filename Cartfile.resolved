@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.9.0"
+github "SDWebImage/SDWebImage" "5.1.1"
+github "Swinject/Swinject" "2.7.1"
+github "tristanhimmelman/AlamofireObjectMapper" "5.2.1"
+github "tristanhimmelman/ObjectMapper" "3.5.1"
+github "yeahdongcn/UIColor-Hex-Swift" "5.1.0"

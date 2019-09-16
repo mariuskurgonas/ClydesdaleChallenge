@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RoomCollectionViewCell" customModule="ClydesdaleChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="86"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nwx-5d-Plx">
+                        <rect key="frame" x="0.0" y="44" width="170" height="8"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUT-BD-dKA">
+                                <rect key="frame" x="63.5" y="8" width="43.5" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Room name label"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="999" verticalCompressionResistancePriority="1000" text="Is occupied:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8st-f3-l7c">
+                                <rect key="frame" x="8" y="45" width="94" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Is occupied label"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjx-Sv-swZ">
+                                <rect key="frame" x="120" y="45" width="42" height="20.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Is occupied value label"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Bjx-Sv-swZ" secondAttribute="trailing" constant="8" id="2JT-fo-suq"/>
+                            <constraint firstItem="8st-f3-l7c" firstAttribute="leading" secondItem="Nwx-5d-Plx" secondAttribute="leading" constant="8" id="Nwh-n5-Gdz"/>
+                            <constraint firstItem="YUT-BD-dKA" firstAttribute="top" secondItem="Nwx-5d-Plx" secondAttribute="top" constant="8" id="efH-sb-LsV"/>
+                            <constraint firstItem="YUT-BD-dKA" firstAttribute="centerX" secondItem="Nwx-5d-Plx" secondAttribute="centerX" id="hAv-FU-zaT"/>
+                            <constraint firstItem="Bjx-Sv-swZ" firstAttribute="leading" secondItem="8st-f3-l7c" secondAttribute="trailing" constant="18" id="ndY-na-Ix6"/>
+                            <constraint firstItem="Bjx-Sv-swZ" firstAttribute="bottom" secondItem="8st-f3-l7c" secondAttribute="bottom" id="o5v-Ee-Wwl"/>
+                            <constraint firstItem="8st-f3-l7c" firstAttribute="top" secondItem="YUT-BD-dKA" secondAttribute="bottom" constant="16.5" id="rc6-I8-vl2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="leading" secondItem="Nwx-5d-Plx" secondAttribute="leading" id="4jV-xT-DAW"/>
+                <constraint firstItem="Nwx-5d-Plx" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="fDc-NF-s8t"/>
+                <constraint firstItem="Nwx-5d-Plx" firstAttribute="bottom" secondItem="ZTg-uK-7eu" secondAttribute="bottom" id="oM5-Rg-cDg"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="Nwx-5d-Plx" secondAttribute="top" id="wJh-2P-RKL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="170" height="86"/>
+            <connections>
+                <outlet property="containerView" destination="Nwx-5d-Plx" id="nKd-oS-gzZ"/>
+                <outlet property="isOccupiedLabel" destination="Bjx-Sv-swZ" id="oK0-RP-ZF2"/>
+                <outlet property="nameLabel" destination="YUT-BD-dKA" id="1J2-xc-2od"/>
+            </connections>
+            <point key="canvasLocation" x="69.565217391304358" y="60.267857142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>

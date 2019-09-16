@@ -1,0 +1,10 @@
+{
+  "commitish" : "3.5.1",
+  "iOS" : [
+    {
+      "name" : "ObjectMapper",
+      "hash" : "200ea8a82f30200598da2dc47b037ea20f5bca84a9223c8beb96db8488a5dd40",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

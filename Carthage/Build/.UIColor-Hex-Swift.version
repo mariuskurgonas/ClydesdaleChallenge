@@ -1,0 +1,10 @@
+{
+  "commitish" : "5.1.0",
+  "iOS" : [
+    {
+      "name" : "HEXColor",
+      "hash" : "c0a92cbc54a0780ff3ee59c8843cf40487ff0be9b7d8ad5f65bed194eff362cc",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}
