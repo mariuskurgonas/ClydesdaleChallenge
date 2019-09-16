@@ -1,6 +1,13 @@
 # ClydesdaleChallenge
 Clydesdale developer challenge implementation
 
+# Installation
+
+- Install library management tool 'Carthage' by executing 'brew install carthage' in terminal
+- Clone project
+- Cd into project directory using terminal and execute 'carthage update --platform iOS' to install all the support libraries
+- Open the project file and run
+
 # Features
 
 - Accessible
